@@ -134,3 +134,30 @@ img {
         width: 100%;
     }
  }
+ @media screen and (max-width: 480px) {
+
+    .row{
+        flex-wrap: wrap;
+    }
+    .container .row .col{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .why-us{
+        background-color: #222222;
+        margin: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .steps{
+        margin-bottom: 0;
+    }
+    .why-us .container img{
+        margin-bottom: 3rem;
+    }
+    .steps .container .card{
+        margin-bottom: 3rem;
+    }
+ }
